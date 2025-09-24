@@ -1,0 +1,87 @@
+/*********************************************
+ * OPL 12.8.0.0 Data
+ * Author: Gabriella
+ * Creation Date: 13/apr/2021 at 13:40:05
+ *********************************************/
+SheetConnection my_sheet("input.xlsm");
+K from SheetRead(my_sheet,"NumChains");
+S from SheetRead(my_sheet,"NumServers");
+F from SheetRead(my_sheet,"funct");
+
+pis from SheetRead(my_sheet,"pis");
+pas from SheetRead(my_sheet,"pas");
+pfs from SheetRead(my_sheet,"pfs");
+pf from SheetRead(my_sheet,"pf");
+betafs from SheetRead(my_sheet,"betafs");
+lambda from SheetRead(my_sheet,"lambda");
+lambdaB from SheetRead(my_sheet,"lambdaB");
+chi from SheetRead(my_sheet,"chi");
+Zforzata from SheetRead(my_sheet,"Zforzata");
+cI from SheetRead(my_sheet,"cI");
+cA from SheetRead(my_sheet,"cA");
+cVM from SheetRead(my_sheet,"cVM");
+cP from SheetRead(my_sheet,"cP");
+cL from SheetRead(my_sheet,"cL");
+alpha from SheetRead(my_sheet,"alpha");
+
+Lungh from SheetRead(my_sheet,"Lungh"); // *************************************
+pos from SheetRead(my_sheet,"pos");
+
+
+
+gamma from SheetRead(my_sheet,"gamma");
+gammaB from SheetRead(my_sheet,"gammaB");
+
+w from SheetRead(my_sheet,"wss");
+
+C from SheetRead(my_sheet,"cs");
+Fss from SheetRead(my_sheet,"Fss");
+rprop from SheetRead(my_sheet,"Rprop");
+Rmax from SheetRead(my_sheet,"Rmax");
+sigma from SheetRead(my_sheet,"sigma");
+pVM from SheetRead(my_sheet,"pVM");
+
+ZMemory from SheetRead(my_sheet,"Zmemory");
+YMemory from SheetRead(my_sheet,"Ymemory");
+
+//Delay2 to SheetWrite(my_sheet,"Delay2");
+Delay5 to SheetWrite(my_sheet,"Delay5");
+
+xSet to SheetWrite(my_sheet,"ResultsX");
+xfSet to SheetWrite(my_sheet,"ResultsXf");
+y to SheetWrite(my_sheet,"ResultsY");
+z to SheetWrite(my_sheet,"ResultsZ");
+zfs to SheetWrite(my_sheet,"ResultsZfs");
+fo to SheetWrite(my_sheet,"FO");
+yk to SheetWrite(my_sheet,"ResultsYk");
+
+CapacityD1 to SheetWrite(my_sheet,"CapacityD1");
+CapacityD2 to SheetWrite(my_sheet,"CapacityD2");
+CapacityD3 to SheetWrite(my_sheet,"CapacityD3");
+CapacityD4 to SheetWrite(my_sheet,"CapacityD4");
+CapacityD5 to SheetWrite(my_sheet,"CapacityD5");
+CapacityD to SheetWrite(my_sheet,"CapacityD");
+
+CapacityLink to SheetWrite(my_sheet,"CapacityLinks");
+Delay to SheetWrite(my_sheet,"Delay");
+
+
+PsiMu3 to SheetWrite(my_sheet,"PsiMu3");
+
+attivazione to SheetWrite(my_sheet,"attivazione");
+attivazione2 to SheetWrite(my_sheet,"attivazione2");
+EnergyConsumption to SheetWrite(my_sheet,"EnergyConsumption");
+
+Links to SheetWrite(my_sheet,"Links");
+
+PowerVM to SheetWrite(my_sheet,"PowerVM");
+Linksss to SheetWrite(my_sheet,"Linkss");
+foalpha to SheetWrite(my_sheet,"foalpha");
+fonalpha to SheetWrite(my_sheet,"fonalpha");
+//mipemphasis to SheetWrite(my_sheet,"Status");
+FLUSSI to SheetWrite(my_sheet,"FLUSSI");
+status to SheetWrite(my_sheet,"Status");
+
+/*INIZIO3
+solutions to SheetWrite(my_sheet,"CA1:CB6");
+//FINE3*/
